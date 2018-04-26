@@ -1,4 +1,4 @@
-package com.example.codewears;
+package com.example.codewars;
 
 public class TenMinWalk {
     public static boolean isValid(char[] walk) {
