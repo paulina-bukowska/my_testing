@@ -3,6 +3,7 @@ package com.example.codility;
 import java.util.ArrayList;
 import java.util.List;
 
+// Find longest sequence of zeros in binary representation of an integer
 public class BinaryGap {
     public int solution(int N) {
         int divisionResult = N;
