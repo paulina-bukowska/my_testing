@@ -9,7 +9,11 @@ public class OddOccurrencesInArray {
 
         if (A.length % 2 == 0) {
             System.out.println("An array should contain an odd number of elements!");
-        } else {
+        }
+        else if(A.length == 1) {
+            unpaired = A[0];
+        }
+        else {
             Arrays.sort(A);
             for(int i = 0; i < A.length-1; i=i+2) {
                 if(A[i] != A[i+1]) {
