@@ -36,7 +36,7 @@ public class PermMissingElem {
 
         System.out.println(permMissingElem.solution(A)); // 2
         System.out.println(permMissingElem.solution(B)); // 2
-        System.out.println(permMissingElem.solution(C)); // 1 x
+        System.out.println(permMissingElem.solution(C)); // 1
         System.out.println(permMissingElem.solution(D)); // 2
         System.out.println(permMissingElem.solution(E)); // 2
         System.out.println(permMissingElem.solution(F)); // 1
