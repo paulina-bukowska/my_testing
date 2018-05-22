@@ -1,8 +1,8 @@
 package com.example.devskiller;
 
-//Method will find the starting index where the second parameter occurs as a sub-array in the array given as the first parameter.
-//If given sub-array (second parameter) occurs more than once then the method should return the starting index of the last occurrence.
-//Your implementations should return `-1` if the sub-array cannot be found.
+// Method will find the starting index where the second parameter occurs as a sub-array in the array given as the first parameter.
+// If given sub-array (second parameter) occurs more than once then the method should return the starting index of the last occurrence.
+// Implementations should return `-1` if the sub-array cannot be found.
 
 public class FindArray {
     public int findArray(int[] array, int[] subArray) {
