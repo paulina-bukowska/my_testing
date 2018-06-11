@@ -2,7 +2,6 @@ package com.example.codility;
 
 // Count minimal number of jumps from position X to Y
 public class FrogJmp {
-    // Performance 0% :(
     // Time complexity O(Y-X)
     public int solution(int X, int Y, int D) {
         if(X == Y) {
@@ -17,7 +16,6 @@ public class FrogJmp {
         return counter;
     }
 
-    // Performance 100% Hurray!!! :)
     // Time complexity O(1)
     public int betterSolution(int X, int Y, int D) {
         int numOfJmp = (Y - X) / D;
