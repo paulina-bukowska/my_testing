@@ -3,6 +3,7 @@ package com.example.codility;
 import java.util.HashSet;
 import java.util.Set;
 
+// Check whether array A is a permutation
 public class PermCheck {
     public int solution(int[] A) {
         Set<Integer> check = new HashSet<>();
