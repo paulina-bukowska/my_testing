@@ -18,6 +18,7 @@ public class BinaryGap {
         }
 
         for(int i = 0; binaryCode.get(i) == 0; i++) {
+
             code.remove(0);
         }
 

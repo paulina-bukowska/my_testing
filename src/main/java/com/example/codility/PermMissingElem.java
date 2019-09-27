@@ -1,6 +1,6 @@
 package com.example.codility;
 
-import java.util.*;
+import java.util.Arrays;
 
 // Find the missing element in a given permutation
 public class PermMissingElem {
