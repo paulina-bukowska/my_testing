@@ -1,4 +1,4 @@
-package com.example.codility;
+package com.example.sort;
 
 import com.example.sort.SelectionSort;
 import org.junit.Assert;
@@ -19,7 +19,7 @@ public class SelectionSortTestSuite {
         int[] A = {5, 2, 8, 14, 1, 16};
 
         //When
-        int[] sortedA = selectionSort.selectionSort(A);
+        int[] sortedA = selectionSort.sort(A);
 
         //Then
         Assert.assertEquals(1, sortedA[0]);
